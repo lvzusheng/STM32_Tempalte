@@ -38,7 +38,6 @@
   system_stm32h7xx.c
   tim.c
   usart.c
-  startup_stm32h743xx.c
   Linking VisualGDB/Debug/STM32_Tempalte...
   ------------------- Memory utilization report -------------------
   Used FLASH: 75KB out of 2048KB (3%)
