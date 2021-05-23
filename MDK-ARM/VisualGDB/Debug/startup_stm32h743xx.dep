@@ -1,0 +1,5 @@
+VisualGDB/Debug/startup_stm32h743xx.o: \
+ C:/Users/14682/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32H7xxxx/StartupFiles/startup_stm32h743xx.c \
+ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stddef.h
+
+d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stddef.h:

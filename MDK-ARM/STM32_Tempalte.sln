@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STM32_Tempalte", "STM32_Tempalte.vcxproj", "{060B3A75-0B34-498A-AD60-EE81C9BC4B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{060B3A75-0B34-498A-AD60-EE81C9BC4B92}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{060B3A75-0B34-498A-AD60-EE81C9BC4B92}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{060B3A75-0B34-498A-AD60-EE81C9BC4B92}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{060B3A75-0B34-498A-AD60-EE81C9BC4B92}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {555ED6E2-1BBB-40CE-9666-3CFD5CA90520}
+	EndGlobalSection
+EndGlobal
