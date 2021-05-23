@@ -59,7 +59,10 @@ VisualGDB/Debug/lcd_lib.o: \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- ../Inc/ltdc.h ../Inc/main.h ../Inc/font.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h ../Inc/ltdc.h \
+ ../Inc/main.h ../Inc/font.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\stdio.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdarg.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\types.h \
@@ -199,6 +202,12 @@ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\math.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
+
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
+
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
+
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
 
 ../Inc/ltdc.h:
 

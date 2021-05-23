@@ -55,8 +55,13 @@ VisualGDB/Debug/main.o: F:/Project/keil/ARM/STM32_Tempalte/Src/main.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  ../Inc/dma2d.h ../Inc/main.h ../Inc/ltdc.h ../Inc/tim.h ../Inc/usart.h \
- ../Inc/gpio.h ../Inc/fmc.h ../Inc/sdram.h ../Inc/fmc.h \
+ ../Inc/usb_device.h \
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+ ../Inc/usbd_conf.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\stdio.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdarg.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\types.h \
@@ -71,10 +76,14 @@ VisualGDB/Debug/main.o: F:/Project/keil/ARM/STM32_Tempalte/Src/main.c \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\sched.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\machine\types.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\stdio.h \
- ../Inc/lcd_lib.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\stdlib.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\machine\stdlib.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\alloca.h \
+ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\string.h \
+ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\_locale.h \
+ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\strings.h \
+ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\string.h \
+ ../Inc/gpio.h ../Inc/fmc.h ../Inc/sdram.h ../Inc/fmc.h ../Inc/lcd_lib.h \
  ../Inc/ltdc.h
 
 ../Inc/main.h:
@@ -191,6 +200,12 @@ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h:
 
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
+
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
+
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
+
 ../Inc/dma2d.h:
 
 ../Inc/main.h:
@@ -201,13 +216,11 @@ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h:
 
 ../Inc/usart.h:
 
-../Inc/gpio.h:
+../Inc/usb_device.h:
 
-../Inc/fmc.h:
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 
-../Inc/sdram.h:
-
-../Inc/fmc.h:
+../Inc/usbd_conf.h:
 
 d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\stdio.h:
 
@@ -237,12 +250,28 @@ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\machine\type
 
 d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\stdio.h:
 
-../Inc/lcd_lib.h:
-
 d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\stdlib.h:
 
 d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\machine\stdlib.h:
 
 d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\alloca.h:
+
+d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\string.h:
+
+d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\_locale.h:
+
+d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\strings.h:
+
+d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\string.h:
+
+../Inc/gpio.h:
+
+../Inc/fmc.h:
+
+../Inc/sdram.h:
+
+../Inc/fmc.h:
+
+../Inc/lcd_lib.h:
 
 ../Inc/ltdc.h:

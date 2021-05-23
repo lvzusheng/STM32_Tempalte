@@ -65,6 +65,18 @@
       <UniqueIdentifier>{17f30292-ef18-490f-83ef-514c9cd42519}</UniqueIdentifier>
       <Extensions>vgdbsettings</Extensions>
     </Filter>
+    <Filter Include="Source files\Middlewares">
+      <UniqueIdentifier>{b6102126-e78a-4db1-b620-a445f674d22a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\USB_Device_Library">
+      <UniqueIdentifier>{9840a3a9-c393-4ea0-a6c0-3d050d1e0db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares">
+      <UniqueIdentifier>{10bea223-b756-4d15-b8d8-bb9a93f0a203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\USB_Device_Library">
+      <UniqueIdentifier>{94e60619-65c4-432b-955d-b69f72e253c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Src\lcd_lib.c">
@@ -189,6 +201,36 @@
     </ClCompile>
     <ClCompile Include="$(BSP_ROOT)\STM32H7xxxx\StartupFiles\startup_stm32h743xx.c">
       <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\usb_device.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\usbd_conf.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\usbd_desc.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd.c">
+      <Filter>Source files\Drivers\STM32H7xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd_ex.c">
+      <Filter>Source files\Drivers\STM32H7xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usb.c">
+      <Filter>Source files\Drivers\STM32H7xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c">
+      <Filter>Source files\Middlewares\USB_Device_Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c">
+      <Filter>Source files\Middlewares\USB_Device_Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c">
+      <Filter>Source files\Middlewares\USB_Device_Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\HID\Src\usbd_hid.c">
+      <Filter>Source files\Middlewares\USB_Device_Library</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

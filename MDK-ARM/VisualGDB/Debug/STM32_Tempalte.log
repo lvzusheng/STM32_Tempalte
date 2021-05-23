@@ -38,10 +38,21 @@
   system_stm32h7xx.c
   tim.c
   usart.c
+  startup_stm32h743xx.c
+  usb_device.c
+  usbd_conf.c
+  usbd_desc.c
+  stm32h7xx_hal_pcd.c
+  stm32h7xx_hal_pcd_ex.c
+  stm32h7xx_ll_usb.c
+  usbd_core.c
+  usbd_ctlreq.c
+  usbd_ioreq.c
+  usbd_hid.c
   Linking VisualGDB/Debug/STM32_Tempalte...
   ------------------- Memory utilization report -------------------
-  Used FLASH: 75KB out of 2048KB (3%)
-  Used DTCMRAM: 3072 bytes out of 128KB (2%)
+  Used FLASH: 93KB out of 2048KB (4%) [+18K]
+  Used DTCMRAM: 5668 bytes out of 128KB (4%) [+2596]
   Used RAM_D1: 0 bytes out of 512KB (0%)
   Used RAM_D2: 0 bytes out of 288KB (0%)
   Used RAM_D3: 0 bytes out of 64KB (0%)

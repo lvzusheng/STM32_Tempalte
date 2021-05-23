@@ -42,7 +42,7 @@
     <ClCompile>
       <CLanguageStandard>
       </CLanguageStandard>
-      <AdditionalIncludeDirectories>..\Inc;..\Drivers\STM32H7xx_HAL_Driver\Inc;..\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy;..\Drivers\CMSIS\Device\ST\STM32H7xx\Include;..\Drivers\CMSIS\Include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Inc;..\Drivers\STM32H7xx_HAL_Driver\Inc;..\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy;..\Drivers\CMSIS\Device\ST\STM32H7xx\Include;..\Drivers\CMSIS\Include;..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;..\Middlewares\ST\STM32_USB_Device_Library\Class\HID\Inc;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DEBUG=1;flash_layout;USE_HAL_DRIVER;STM32H743xx;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CPPLanguageStandard />
@@ -58,7 +58,7 @@
     <ClCompile>
       <CLanguageStandard>
       </CLanguageStandard>
-      <AdditionalIncludeDirectories>..\Inc;..\Drivers\STM32H7xx_HAL_Driver\Inc;..\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy;..\Drivers\CMSIS\Device\ST\STM32H7xx\Include;..\Drivers\CMSIS\Include;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Inc;..\Drivers\STM32H7xx_HAL_Driver\Inc;..\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy;..\Drivers\CMSIS\Device\ST\STM32H7xx\Include;..\Drivers\CMSIS\Include;..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;..\Middlewares\ST\STM32_USB_Device_Library\Class\HID\Inc;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;flash_layout;USE_HAL_DRIVER;STM32H743xx;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CPPLanguageStandard />
@@ -112,6 +112,16 @@
     <ClCompile Include="..\Src\tim.c" />
     <ClCompile Include="..\Src\usart.c" />
     <ClCompile Include="$(BSP_ROOT)\STM32H7xxxx\StartupFiles\startup_stm32h743xx.c" />
+    <ClCompile Include="..\Src\usb_device.c" />
+    <ClCompile Include="..\Src\usbd_conf.c" />
+    <ClCompile Include="..\Src\usbd_desc.c" />
+    <ClCompile Include="..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd.c" />
+    <ClCompile Include="..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd_ex.c" />
+    <ClCompile Include="..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usb.c" />
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c" />
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c" />
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c" />
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\HID\Src\usbd_hid.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="stm32.props" />

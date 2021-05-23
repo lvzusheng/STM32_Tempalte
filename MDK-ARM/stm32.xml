@@ -49,7 +49,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>STM32_Tempalte.uvprojx</RelativePath>
-        <Timestamp>132662345596246819</Timestamp>
+        <Timestamp>132662610133853786</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -98,6 +98,15 @@
                   <RelativePath>..\Src\usart.c</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
+                  <RelativePath>..\Src\usb_device.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\Src\usbd_conf.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\Src\usbd_desc.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
                   <RelativePath>..\Src\stm32h7xx_it.c</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
@@ -115,7 +124,13 @@
               <Name>STM32H7xx_HAL_Driver</Name>
               <Files>
                 <VirtualFileSnapshot>
-                  <RelativePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c</RelativePath>
+                  <RelativePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pcd_ex.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usb.c</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
                   <RelativePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c</RelativePath>
@@ -149,6 +164,9 @@
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
                   <RelativePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
                   <RelativePath>..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c</RelativePath>
@@ -209,6 +227,29 @@
           <Name>::CMSIS</Name>
           <Files />
         </VirtualDirectorySnapshot>
+        <VirtualDirectorySnapshot>
+          <Name>Middlewares</Name>
+          <Subdirectories>
+            <VirtualDirectorySnapshot>
+              <Name>USB_Device_Library</Name>
+              <Files>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\Middlewares\ST\STM32_USB_Device_Library\Class\HID\Src\usbd_hid.c</RelativePath>
+                </VirtualFileSnapshot>
+              </Files>
+            </VirtualDirectorySnapshot>
+          </Subdirectories>
+          <Files />
+        </VirtualDirectorySnapshot>
       </Subdirectories>
       <Files />
     </RootDirectory>
@@ -221,6 +262,8 @@
             <string>F:\Project\keil\ARM\STM32_Tempalte\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy</string>
             <string>F:\Project\keil\ARM\STM32_Tempalte\Drivers\CMSIS\Device\ST\STM32H7xx\Include</string>
             <string>F:\Project\keil\ARM\STM32_Tempalte\Drivers\CMSIS\Include</string>
+            <string>F:\Project\keil\ARM\STM32_Tempalte\Middlewares\ST\STM32_USB_Device_Library\Core\Inc</string>
+            <string>F:\Project\keil\ARM\STM32_Tempalte\Middlewares\ST\STM32_USB_Device_Library\Class\HID\Inc</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>

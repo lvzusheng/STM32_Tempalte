@@ -56,6 +56,9 @@ VisualGDB/Debug/usart.o: F:/Project/keil/ARM/STM32_Tempalte/Src/usart.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\stdio.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdarg.h \
  d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\sys\types.h \
@@ -190,6 +193,12 @@ d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
+
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
+
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
+
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
 
 d:\visualstudio2019\visualgdb\sysgcc\arm-eabi\arm-none-eabi\include\stdio.h:
 
